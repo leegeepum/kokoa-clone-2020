@@ -1,0 +1,17 @@
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar {
+  width: 25%;
+  height: auto;
+}
+.user-component__name {
+  font-weight: 600;
+  font-size: 22px;
+}
+.user-component__description {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
